@@ -58,11 +58,11 @@ function Footer() {
         <div className="footer-box">
           <h3>Courses</h3>
 
-          <a href="#">MERN Stack</a>
-          <a href="#">React JS</a>
-          <a href="#">Python</a>
-          <a href="#">Java Full Stack</a>
-          <a href="#">UI / UX Design</a>
+          <a href="mern-stack">MERN Stack</a>
+          <a href="react-js">React JS</a>
+          <a href="python">Python</a>
+          <a href="java-full-stack">Java Full Stack</a>
+          <a href="ui-ux-design">UI / UX Design</a>
         </div>
 
         {/* Contact */}
