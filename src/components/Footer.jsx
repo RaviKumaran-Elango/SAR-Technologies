@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../styles/Footer.css";
 
 import {
@@ -69,27 +68,27 @@ function Footer() {
         <div className="footer-box">
           <h3>Quick Links</h3>
 
-          <Link to="/">Home</Link>
-          <Link to="/courses">Courses</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/about">About Us</Link>
+          <a href="/">Home</a>
+          <a href="/courses">Courses</a>
+          <a href="/contact">Contact</a>
+          <a href="/a bout">a bout Us</a>
         </div>
 
         {/* Courses */}
         <div className="footer-box">
           <h3>Courses</h3>
 
-          <Link to="https://www.mongodb.com/resources/languages/mern-stack">
+          <a href="https://www.mongodb.com/resources/languages/mern-stack">
             MERN Stack
-          </Link>
-          <Link to="https://react.dev/">React JS</Link>
-          <Link to="https://www.python.org/">Python</Link>
-          <Link to="https://www.geeksforgeeks.org/advance-java/java-full-stack/">
+          </a>
+          <a href="https://react.dev/">React JS</a>
+          <a href="https://www.python.org/">Python</a>
+          <a href="https://www.geeksforgeeks.org/advance-java/java-full-stack/">
             Java Full Stack
-          </Link>
-          <Link to="https://www.geeksforgeeks.org/blogs/difference-between-ui-and-ux-design/">
+          </a>
+          <a href="https://www.geeksforgeeks.org/blogs/difference-between-ui-and-ux-design/">
             UI / UX Design
-          </Link>
+          </a>
         </div>
 
         {/* Contact */}
